@@ -109,7 +109,7 @@ main > section.projetos > h2 {
     
 }
 
-main > section.projetos div.container > div.projetoImc, div.projetoTimer, div.projetoLogin {
+main > section.projetos div.container > div.projetoLivros, div.projetoTimer, div.projetoLogin, div.projetoCodeConnect {
     background-color: #1f63b783;
     color: white;
     padding: 15px;
@@ -123,29 +123,29 @@ main > section.projetos div.container > div.projetoImc, div.projetoTimer, div.pr
     justify-content: space-between;
 }
 
-section.projetos > div.container > div.projetoImc > h3, div.projetoTimer > h3, div.projetoLogin > h3 {
+section.projetos > div.container > div.projetoLivros > h3, div.projetoTimer > h3, div.projetoLogin > h3, div.projetoCodeConnect > h3 {
     color: aqua;
     font-family: "Play", sans-serif;
     margin-bottom: 15px;
 }
 
-section.projetos > div.projetoImc > p, div.projetoTimer > p, div.projetoLogin > p {
+section.projetos > div.projetoLivros > p, div.projetoTimer > p, div.projetoLogin > p, div.projetoCodeConnect > p {
     text-align: justify;
 }
 
-section.projetos > div.container > div.projetoImc> img, div.projetoTimer > img, div.projetoLogin > img {
+section.projetos > div.container > div.projetoLivros> img, div.projetoTimer > img, div.projetoLogin > img, div.projetoCodeConnect > img {
     max-width: 300px;
     margin-top: 20px;
     border: 2px solid white;
     border-radius: 5px;
 }
 
-section.projetos > div.container > div.projetoImc > a, div.projetoTimer > a, div.projetoLogin > a {
+section.projetos > div.container > div.projetoLivros > a, div.projetoTimer > a, div.projetoLogin > a, div.projetoCodeConnect > a {
     color: rgb(157, 247, 242);
     
 }
 
-section.projetos > div.container > div.projetoImc > a:hover, div.projetoTimer > a:hover, div.projetoLogin > a:hover {
+section.projetos > div.container > div.projetoLivros > a:hover, div.projetoTimer > a:hover, div.projetoLogin > a:hover, div.projetoCodeConnect > a:hover {
     color: var(--primary-color-darker);
 }
 
