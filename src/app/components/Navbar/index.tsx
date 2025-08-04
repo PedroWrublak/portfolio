@@ -22,17 +22,17 @@ function Navbar({ isSidebarOpen, toggleSidebar }: NavBarProps) {
           onClick={toggleSidebar}
         >
           {isSidebarOpen ? (
-            <div className="flex items-center gap-2 text-black hover:opacity-50">
+            <div className="flex items-center gap-2 hover:scale-x-130 transition-transform ease-in-out text-black ">
               <X className={`${luckiestGuy.className} w-6 h-6 text-2xl `} />
               <span className={`${luckiestGuy.className} uppercase text-2xl`}>
                 Close
               </span>
             </div>
           ) : (
-            <div className="flex items-center gap-2 text-black hover:opacity-50">
+            <div className="flex items-center gap-2 hover:scale-x-130 transition-transform ease-in-out text-black">
               <Menu className="w-6 h-6" />
               <span
-                className={`font-medium text-2xl uppercase ${luckiestGuy.className}`}
+                className={`font-medium text-2xl uppercase  ${luckiestGuy.className}`}
               >
                 Menu
               </span>
@@ -44,7 +44,7 @@ function Navbar({ isSidebarOpen, toggleSidebar }: NavBarProps) {
         <div className="z-50 cursor-pointer select-none">
           <a
             href="#contact"
-            className={`text-blue-300 inline-block hover:scale-x-150 transition-transform ease-in-out ${luckiestGuy.className} text-2xl font-bold uppercase`}
+            className={`text-blue-600 inline-block hover:scale-x-130 transition-transform ease-in-out ${luckiestGuy.className} text-2xl font-bold uppercase`}
           >
             Hire me
           </a>
