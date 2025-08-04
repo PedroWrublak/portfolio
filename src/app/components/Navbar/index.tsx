@@ -14,7 +14,7 @@ type NavBarProps = {
 
 function Navbar({ isSidebarOpen, toggleSidebar }: NavBarProps) {
   return (
-    <header className="bg-amber-50 h-[10rem] py-[4rem] px-[7rem]">
+    <header className="bg-blue-100 h-[10rem] py-[4rem] px-[7rem]">
       {/* Menu */}
       <nav className="flex justify-between items-center">
         <div
