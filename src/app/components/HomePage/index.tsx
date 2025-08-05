@@ -10,10 +10,10 @@ const luckiestGuy = Luckiest_Guy({
 
 function HomePage()  {
     return  (
-        <section className="bg-blue-200 h-[100dvh] flex justify-center">
-            <div className="flex flex-col justify-center">
-                <h1 className={`${luckiestGuy.className} text-5xl`} >Hey, My name is Pedro</h1>
-                <p className={`${luckiestGuy.className} text-2xl`}>I'm a software developer.</p>
+        <section className="bg-blue-200 h-[100dvh] flex justify-center border-x-20 border-b-20 select-none">
+            <div className="flex flex-col justify-center text-blue-950">
+                <h1 className={`${luckiestGuy.className} text-7xl`} >Hey, My <br/> name is Pedro</h1>
+                <p className={`${luckiestGuy.className} text-3xl`}>I'm a software developer.</p>
             </div>
             <div className="flex flex-col justify-center ml-30">
                 <Image

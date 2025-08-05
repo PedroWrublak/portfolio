@@ -27,11 +27,11 @@ function SideBar({ isOpen, onClose }: SideBarProps) {
         `}
     >
       <ul
-        className={`mt-70 px-30 space-y-10 flex flex-col justify-cente text-3xl md:text-5xl text-black select-none`}
+        className={`mt-70 px-30 space-y-10 flex flex-col justify-cente text-3xl md:text-5xl text-blue-950 select-none`}
       >
-        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer">Home</li>
-        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer">Projects</li>
-        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer">Contact</li>
+        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer"><a href="#projects">Home</a></li>
+        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer"><a href="#projects">Projects</a></li>
+        <li onClick={onClose} className="hover:text-blue-400 cursor-pointer"><a href="#projects">Contact</a></li>
       </ul>
     </div>
   );
